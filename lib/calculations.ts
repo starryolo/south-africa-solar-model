@@ -106,9 +106,9 @@ export interface YearlyData {
   discountedCashFlow: number
 }
 
-// 协鑫645W双玻光伏板参数
+// 协鑫625W双玻光伏板参数
 export const GCL_645W_SPECS = {
-  power: 645, // W
+  power: 625, // W
   efficiency: 0.213, // 21.3% 效率
   area: 2.384 * 1.303, // 约 3.1 m²
   degradationRate: 0.004, // 年衰减率 0.4%
@@ -125,7 +125,7 @@ export const SUNGROW_BATTERY_SPECS = {
 
 // 默认参数（人民币）
 export const SOUTH_AFRICA_DEFAULTS: SystemConfig = {
-  pvPanelPower: 645,
+  pvPanelPower: 625,
   pvPanelCount: 100,
   pvPanelPrice: 1200, // CNY
   pvInstallationCost: 3500, // CNY/kW

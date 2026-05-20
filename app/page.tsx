@@ -55,7 +55,7 @@ export default function HomePage() {
       <main className="container mx-auto px-4 py-8">
         {/* 光伏板规格说明 */}
         <div className="mb-8 rounded-lg border-2 border-primary bg-primary/5 p-6">
-          <h2 className="text-lg font-bold text-foreground mb-4">协鑫 645W 双玻型光伏板参数</h2>
+          <h2 className="text-lg font-bold text-foreground mb-4">协鑫 625W 双玻型光伏板参数</h2>
           <div className="grid gap-4 md:grid-cols-4">
             <div>
               <span className="text-muted-foreground">单块功率：</span>

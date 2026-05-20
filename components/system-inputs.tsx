@@ -38,7 +38,7 @@ export function SystemInputs({ config, onChange }: SystemInputsProps) {
                 onChange={(e) => updateConfig("pvPanelPower", Number(e.target.value))}
                 className="border-secondary"
               />
-              <p className="text-xs text-muted-foreground">协鑫645W双玻型</p>
+              <p className="text-xs text-muted-foreground">协鑫625W双玻型</p>
             </div>
             <div className="space-y-2">
               <Label htmlFor="pvPanelCount">光伏板数量 (块)</Label>
